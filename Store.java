@@ -10,7 +10,7 @@ public class Store {
     // Attributs of class Store
     public String name;
     public String Address;
-    Manager m = new Manager("abrayan", "ayan123", 3058,"ayan", "abc@gmail.com" );  // object of Manager                                                                                           
+    Manager m = new Manager("kaitandas", "kaitan1234", 3058,"kaitan", "kaitan@gmail.com" );  // object of Manager                                                                                           
     ArrayList <SalesMan> sm_list= new ArrayList<>();  // object of SalesPerson
     ArrayList <Customer> custm_list = new ArrayList<>(); // object of customer
     ArrayList <Stock> stock_list = new ArrayList<>();  // object of Stock
@@ -679,4 +679,5 @@ private class Customer {
             }
     }while(num != 0);
 }
+
 }
